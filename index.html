@@ -39,5 +39,16 @@
 
 <h2>MVP printsiip IT projektides</h2>
 <p>MVP (Minimum Viable Product) on minimaalsete funktsioonidega toode, mis võimaldab testida idee elujõulisust kiiresti ja väikse ressursikuluga. IT-projektides saan MVP printsiipi kasutada, luues esmalt lihtsama versiooni rakendusest, mis katab ainult põhifunktsioonid. See võimaldab saada varajast tagasisidet kasutajatelt ja teha vajalikke muudatusi enne suuremate ressursside investeerimist. Nii saab vältida üleliigseid arenduskulusid ja keskenduda just sellele, mis kasutajatele tegelikult väärtust pakub.</p>
+
+<h2>Kuidas teha remote repo?</h2>
+<p>Remote repository (kaughoidla) võimaldab hoida ja hallata koodi kaugserveris, näiteks GitHubis. Selle loomiseks tuleb kasutada järgmisi käske:</p>
+<ol>
+    <li><code>git init</code> – loob lokaalse Git-hoidla.</li>
+    <li><code>git remote add origin &lt;repo_URL&gt;</code> – seob lokaalse hoidla kaughoidlaga.</li>
+    <li><code>git add .</code> – lisab kõik failid versioonihaldusesse.</li>
+    <li><code>git commit -m "Esialgne commit"</code> – salvestab muudatused lokaalselt.</li>
+    <li><code>git push -u origin main</code> – saadab koodi kaughoidlasse.</li>
+</ol>
+<p>Peale selle saab hoidlat hallata ja muudatusi üles laadida, kasutades <code>git pull</code> ja <code>git push</code> käske.</p>
 </body>
 </html>
